@@ -1,0 +1,429 @@
+0000.000 (0) Opened log file at time: Sun, 18 Aug 2024 16:18:55 +0000 on http://marinenparle.local
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (fpm-fcgi, Darwin mbp-de-marine.home 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:13:18 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6030 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.9M | 14M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 137724.1 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.003 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.004 (0) Set semaphore last lock (fd) time to 2024-08-18 16:18:55
+0000.005 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=ddc0c605d3da, file_nonce=ddc0c605d3da begun at=1723997935 (0s ago), job type=backup
+0000.008 (0) Scheduling a resumption (1) after 300 seconds (1723998235) in case this run gets aborted
+0000.009 (0) Checking if we have a zip executable available
+0000.009 (0) Testing: /usr/bin/zip
+0000.023 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.024 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.024 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.025 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.025 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.041 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.042 (0) Working binary zip found: /usr/bin/zip
+0000.043 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.044 (0) Creation of backups of directories: beginning
+0000.045 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.221 (0) Total entities for the zip file: 1343 directories, 6368 files (0 skipped as non-modified), 123.4 MB
+0000.238 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.255 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.264 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.273 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.281 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.295 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.303 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.308 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.310 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.9 MB, 6368 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.817 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: size is now: 8.90 MB
+0000.820 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1100 files added (on-disk size: 9094 KB)
+0000.822 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1200 files added (on-disk size: 9094 KB)
+0000.823 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1300 files added (on-disk size: 9094 KB)
+0000.825 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1400 files added (on-disk size: 9094 KB)
+0000.827 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1500 files added (on-disk size: 9094 KB)
+0000.828 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1600 files added (on-disk size: 9094 KB)
+0000.830 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1700 files added (on-disk size: 9094 KB)
+0000.832 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1800 files added (on-disk size: 9094 KB)
+0000.833 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 1900 files added (on-disk size: 9094 KB)
+0000.835 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2000 files added (on-disk size: 9094 KB)
+0000.835 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11 MB, 6368 files batched, 1001 (2002) added so far); re-opening (prior size: 9094 KB)
+0001.158 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: size is now: 13.50 MB
+0001.168 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2100 files added (on-disk size: 13816.7 KB)
+0001.178 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2200 files added (on-disk size: 13816.7 KB)
+0001.187 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2300 files added (on-disk size: 13816.7 KB)
+0001.195 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2400 files added (on-disk size: 13816.7 KB)
+0001.202 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2500 files added (on-disk size: 13816.7 KB)
+0001.211 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2600 files added (on-disk size: 13816.7 KB)
+0001.219 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2700 files added (on-disk size: 13816.7 KB)
+0001.229 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2800 files added (on-disk size: 13816.7 KB)
+0001.234 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 6368 files batched, 846 (2848) added so far); re-opening (prior size: 13816.7 KB)
+0001.762 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: size is now: 18.70 MB
+0001.764 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21969.1 KB/s)
+0001.765 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1657660007477, normalised_time=1.1652736541369, max_time=1.7647378444672, data points known=1, old_max_bytes=26214400, new_max_bytes=134978079)
+0001.767 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 2900 files added (on-disk size: 19167.3 KB)
+0001.769 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3000 files added (on-disk size: 19167.3 KB)
+0001.771 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3100 files added (on-disk size: 19167.3 KB)
+0001.772 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3200 files added (on-disk size: 19167.3 KB)
+0001.774 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3300 files added (on-disk size: 19167.3 KB)
+0001.776 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3400 files added (on-disk size: 19167.3 KB)
+0001.777 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3500 files added (on-disk size: 19167.3 KB)
+0001.779 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3600 files added (on-disk size: 19167.3 KB)
+0001.780 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3700 files added (on-disk size: 19167.3 KB)
+0001.782 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3800 files added (on-disk size: 19167.3 KB)
+0001.783 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (44 MB, 6368 files batched, 1001 (3849) added so far); re-opening (prior size: 19167.3 KB)
+0002.886 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: size is now: 31.30 MB
+0002.889 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 3900 files added (on-disk size: 32079.1 KB)
+0002.891 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4000 files added (on-disk size: 32079.1 KB)
+0002.892 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4100 files added (on-disk size: 32079.1 KB)
+0002.894 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4200 files added (on-disk size: 32079.1 KB)
+0002.896 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4300 files added (on-disk size: 32079.1 KB)
+0002.898 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4400 files added (on-disk size: 32079.1 KB)
+0002.900 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4500 files added (on-disk size: 32079.1 KB)
+0002.902 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4600 files added (on-disk size: 32079.1 KB)
+0002.904 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4700 files added (on-disk size: 32079.1 KB)
+0002.905 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4800 files added (on-disk size: 32079.1 KB)
+0002.906 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 6368 files batched, 1001 (4850) added so far); re-opening (prior size: 32079.1 KB)
+0003.255 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 4900 files added (on-disk size: 35401.5 KB)
+0003.270 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5000 files added (on-disk size: 35401.5 KB)
+0003.280 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5100 files added (on-disk size: 35401.5 KB)
+0003.288 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5200 files added (on-disk size: 35401.5 KB)
+0003.296 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5300 files added (on-disk size: 35401.5 KB)
+0003.302 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5400 files added (on-disk size: 35401.5 KB)
+0003.310 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5500 files added (on-disk size: 35401.5 KB)
+0003.317 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5600 files added (on-disk size: 35401.5 KB)
+0003.323 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5700 files added (on-disk size: 35401.5 KB)
+0003.330 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5800 files added (on-disk size: 35401.5 KB)
+0003.334 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.8 MB, 6368 files batched, 1001 (5851) added so far); re-opening (prior size: 35401.5 KB)
+0003.679 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 5900 files added (on-disk size: 38932 KB)
+0003.681 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 6000 files added (on-disk size: 38932 KB)
+0003.683 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 6100 files added (on-disk size: 38932 KB)
+0003.684 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 6200 files added (on-disk size: 38932 KB)
+0003.686 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.tmp: 6300 files added (on-disk size: 38932 KB)
+0003.901 (0) Creating zip file manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.list-temp.tmp)
+0003.915 (0) Successfully created zip file manifest (size: 522085)
+0004.521 (0) Created plugins zip (0) - 39660.8 KB in 4.5 s (8864 KB/s) (sha1: 5abc01ca233bbb3a29920d9953b8f0a87da530f4, sha256: be5d3f0cd2c4683d13e8181e91dc918786d56b234fa49c5e8908fc90b79e29ad)
+0004.528 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0004.528 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-62c833f9e5ba5e326959a8aa2989cea4)
+0006.593 (0) Google Drive: quota usage: used=6989.9 MB, total=15360 MB, available=8370.1 MB
+0006.597 (0) Google Drive: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1B-vdbq0ZmEGLwBM0DIuwIUzAzsVRkwBS)
+0007.578 (0) Googledrive chunked upload: 2.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 14.2 / 24)
+0008.013 (0) Googledrive chunked upload: 7.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 14.2 / 24)
+0008.479 (0) Googledrive chunked upload: 18.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 14.2 / 24)
+0009.036 (0) Googledrive chunked upload: 38.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 14.2 / 24)
+0009.769 (0) Googledrive chunked upload: 80 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 14.2 / 24)
+0011.471 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0011.480 (0) Google Drive: OK: Archive backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip uploaded in 4.88 seconds
+0011.481 (0) Recording as successfully uploaded: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip
+0011.487 (0) Deleting local file: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip: OK
+0011.495 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.560 (0) Total entities for the zip file: 279 directories, 1843 files (0 skipped as non-modified), 48.1 MB
+0011.562 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.564 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.565 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.567 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.568 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.570 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0011.571 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0011.573 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0011.574 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0011.576 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0011.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.9 MB, 1843 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0012.047 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: size is now: 8.60 MB
+0012.051 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1100 files added (on-disk size: 8775.7 KB)
+0012.052 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1200 files added (on-disk size: 8775.7 KB)
+0012.054 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1300 files added (on-disk size: 8775.7 KB)
+0012.056 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1400 files added (on-disk size: 8775.7 KB)
+0012.058 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1500 files added (on-disk size: 8775.7 KB)
+0012.060 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1600 files added (on-disk size: 8775.7 KB)
+0012.061 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1700 files added (on-disk size: 8775.7 KB)
+0012.063 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: 1800 files added (on-disk size: 8775.7 KB)
+0012.672 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.tmp: size is now: 28.30 MB
+0012.698 (0) Creating zip file manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.list-temp.tmp)
+0012.703 (0) Successfully created zip file manifest (size: 130599)
+0013.162 (0) Created themes zip (0) - 28996.2 KB in 1.7 s (17424.5 KB/s) (sha1: eb11ea1ae0440dd438751dd224a71523e5c56893, sha256: 3d46a0b5fde12e09d6edbaf65c7a9261e1f4869e6208321ad69bef30b00edb6f)
+0013.166 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0013.167 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-62c833f9e5ba5e326959a8aa2989cea4)
+0013.657 (0) Google Drive: quota usage: used=7028.6 MB, total=15360 MB, available=8331.4 MB
+0013.661 (0) Google Drive: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip: Attempting to upload to Google Drive (into folder id: 1B-vdbq0ZmEGLwBM0DIuwIUzAzsVRkwBS)
+0014.506 (0) Googledrive chunked upload: 3.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.4 / 22)
+0014.899 (0) Googledrive chunked upload: 10.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 13.4 / 22)
+0015.372 (0) Googledrive chunked upload: 24.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 13.4 / 22)
+0016.031 (0) Googledrive chunked upload: 53 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 13.4 / 22)
+0017.853 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0017.861 (0) Google Drive: OK: Archive backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip uploaded in 4.2 seconds
+0017.863 (0) Recording as successfully uploaded: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip
+0017.867 (0) Deleting local file: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip: OK
+0017.875 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.877 (0) Looking for candidates to backup in: /Users/marine/Local Sites/marinenparle/app/public/wp-content/uploads
+0017.878 (0) finding files: 2024: adding to list (1)
+0017.879 (0) finding files: content-views: adding to list (2)
+0017.880 (0) finding files: wpcf7_uploads: adding to list (3)
+0017.881 (0) finding files: wpforms: adding to list (4)
+0017.882 (0) finding files: elementor: adding to list (5)
+0017.883 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.905 (0) Total entities for the zip file: 10 directories, 414 files (0 skipped as non-modified), 153.7 MB
+0017.908 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.910 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.912 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.914 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 128.7 MB added on this batch (129.2 MB, 414 files batched, 341 (341) added so far); re-opening (prior size: 0 KB)
+0018.858 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.tmp: size is now: 129.20 MB
+0018.859 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 104912.2 KB/s)
+0018.861 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2607510089874, normalised_time=1.2564273128066, max_time=18.859658002853, data points known=1, old_max_bytes=134978079, new_max_bytes=209715200)
+0018.862 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.tmp: 400 files added (on-disk size: 132252.9 KB)
+0019.108 (0) Creating zip file manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.list-temp.tmp)
+0019.110 (0) Successfully created zip file manifest (size: 21274)
+0021.479 (0) Created uploads zip (0) - 151965.4 KB in 3.6 s (42285.8 KB/s) (sha1: 7c2cd014a5d3c7a4af249d38a2028faba3a91ba9, sha256: 0f8db2df7f0dcca130d06e8d8878a9e1805f7f29f0c6c6865e68857abcd4e17d)
+0021.486 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0021.488 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-62c833f9e5ba5e326959a8aa2989cea4)
+0021.918 (0) Google Drive: quota usage: used=7056.9 MB, total=15360 MB, available=8303.1 MB
+0021.921 (0) Google Drive: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip: Attempting to upload to Google Drive (into folder id: 1B-vdbq0ZmEGLwBM0DIuwIUzAzsVRkwBS)
+0022.940 (0) Googledrive chunked upload: 0.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.2 / 22)
+0023.423 (0) Googledrive chunked upload: 2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 13.2 / 22)
+0023.898 (0) Googledrive chunked upload: 4.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 13.2 / 22)
+0024.554 (0) Googledrive chunked upload: 10.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 13.2 / 22)
+0025.339 (0) Googledrive chunked upload: 20.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 13.2 / 22)
+0026.437 (0) Googledrive chunked upload: 42.5 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 13.2 / 22)
+0028.200 (0) Googledrive chunked upload: 85.6 % uploaded (133169152)
+0030.147 (0) Googledrive chunked upload: 100 % uploaded (133169152)
+0030.153 (0) Google Drive: OK: Archive backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip uploaded in 8.23 seconds
+0030.155 (0) Recording as successfully uploaded: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip
+0030.166 (0) Deleting local file: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip: OK
+0030.175 (0) No backup of mu-plugins: excluded by user's options
+0030.181 (0) Beginning backup of other directories found in the content directory (index: 0)
+0030.185 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0030.189 (0) Looking for candidates to backup in: /Users/marine/Local Sites/marinenparle/app/public/wp-content
+0030.191 (0) finding files: upgrade: skipping: excluded by options
+0030.194 (0) finding files: index.php: adding to list (1)
+0030.197 (0) finding files: cache: skipping: excluded by options
+0030.200 (0) finding files: plugins: skipping: this is the plugins directory
+0030.203 (0) finding files: uploads: skipping: this is the uploads directory
+0030.206 (0) finding files: updraft: skipping: this is the updraft directory
+0030.209 (0) finding files: languages: adding to list (2)
+0030.210 (0) finding files: fonts: adding to list (3)
+0030.214 (0) finding files: themes: skipping: this is the themes directory
+0030.239 (0) Total entities for the zip file: 7 directories, 222 files (0 skipped as non-modified), 8.7 MB
+0030.259 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.276 (0) Zip: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.571 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip.tmp: size is now: 2.80 MB
+0030.575 (0) Creating zip file manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip.list-temp.tmp)
+0030.577 (0) Successfully created zip file manifest (size: 15283)
+0030.622 (0) Created others zip (0) - 2855.2 KB in 0.4 s (7070.8 KB/s) (sha1: 1b03a5624f918275de34bf12e01d1d916bd3d11a, sha256: 61a591ac3f94e6b23ed7456dcfa08d125488927430e2bc3dab28c4d637fece31)
+0030.625 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.625 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-62c833f9e5ba5e326959a8aa2989cea4)
+0031.064 (0) Google Drive: quota usage: used=7205.3 MB, total=15360 MB, available=8154.7 MB
+0031.067 (0) Google Drive: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip: Attempting to upload to Google Drive (into folder id: 1B-vdbq0ZmEGLwBM0DIuwIUzAzsVRkwBS)
+0031.960 (0) Googledrive chunked upload: 35.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.2 / 22)
+0033.323 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0033.330 (0) Google Drive: OK: Archive backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip uploaded in 2.26 seconds
+0033.331 (0) Recording as successfully uploaded: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip
+0033.335 (0) Deleting local file: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip: OK
+0033.347 (0) Saving backup status to database (elements: 8)
+0033.351 (0) Beginning creation of database dump (WordPress DB)
+0033.352 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0033.364 (0) Table wp_options: Total expected rows (via COUNT): 341
+0033.365 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.388 (0) Table wp_options: Rows added in this batch (next record: 15508): 337 (uncompressed bytes in this segment=1256021) in 0.03 seconds
+0033.392 (0) Table wp_options: finishing file(s) (2, 142.8 KB)
+0033.395 (0) Table wp_users: Total expected rows (via COUNT): 1
+0033.396 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.397 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1410) in 0.00 seconds
+0033.400 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0033.403 (0) Table wp_usermeta: Total expected rows (via COUNT): 38
+0033.403 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.405 (0) Table wp_usermeta: Rows added in this batch (next record: 39): 38 (uncompressed bytes in this segment=4298) in 0.00 seconds
+0033.408 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0033.411 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 12
+0033.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.413 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 173): 12 (uncompressed bytes in this segment=6825) in 0.00 seconds
+0033.417 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0033.419 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0033.420 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0033.422 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0033.424 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0033.425 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.426 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.00 seconds
+0033.428 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0033.430 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 26
+0033.431 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.432 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=3131) in 0.00 seconds
+0033.434 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0033.438 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0033.439 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0033.442 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0033.445 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0033.445 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.446 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2152) in 0.00 seconds
+0033.449 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0033.451 (0) Table wp_links: Total expected rows (via COUNT): 0
+0033.452 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0033.455 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0033.465 (0) Table wp_postmeta: Total expected rows (approximate): 3378
+0033.490 (0) Table wp_postmeta: Rows added in this batch (next record: 4172): 2949 (uncompressed bytes in this segment=1559162) in 0.03 seconds
+0033.494 (0) Table wp_postmeta: finishing file(s) (2, 77.4 KB)
+0033.500 (0) Table wp_posts: Total expected rows (via COUNT): 562
+0033.525 (0) Table wp_posts: Rows added in this batch (next record: 592): 562 (uncompressed bytes in this segment=1533689) in 0.03 seconds
+0033.528 (0) Table wp_posts: finishing file(s) (2, 84.3 KB)
+0033.530 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0033.532 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=876) in 0.00 seconds
+0033.534 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0033.537 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0033.537 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.538 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1019) in 0.00 seconds
+0033.542 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0033.545 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0033.546 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0033.549 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0033.552 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0033.552 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.553 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=831) in 0.00 seconds
+0033.556 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0033.558 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0033.559 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0033.561 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0033.568 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0033.569 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=752) in 0.01 seconds
+0033.572 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0033.575 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0033.576 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0033.579 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0033.582 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0033.583 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 0.00 seconds
+0033.585 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0033.590 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0033.590 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.591 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=973) in 0.00 seconds
+0033.594 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0033.598 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 0
+0033.599 (0) Table wp_yoast_indexable: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3860) in 0.00 seconds
+0033.602 (0) Table wp_yoast_indexable: finishing file(s) (2, 1 KB)
+0033.604 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0033.605 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0033.607 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0033.610 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0033.610 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0033.612 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 0.00 seconds
+0033.614 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0033.616 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0033.618 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0033.620 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0033.622 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 0
+0033.623 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=981) in 0.00 seconds
+0033.625 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0033.625 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Users/marine/Local Sites/marinenparle/app/public/wp-content/updraft/backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0033.626 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_options.table.tmpr15509.gz (1/26/fopen): adding to final database dump
+0033.627 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_options.table.gz (2/26/fopen): adding to final database dump
+0033.628 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_users.table.tmpr2.gz (3/26/fopen): adding to final database dump
+0033.628 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_users.table.gz (4/26/fopen): adding to final database dump
+0033.628 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_usermeta.table.tmpr40.gz (5/26/fopen): adding to final database dump
+0033.629 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_usermeta.table.gz (6/26/fopen): adding to final database dump
+0033.629 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_actions.table.tmpr174.gz (7/26/fopen): adding to final database dump
+0033.630 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_actions.table.gz (8/26/fopen): adding to final database dump
+0033.630 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/26/fopen): adding to final database dump
+0033.630 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_claims.table.gz (10/26/fopen): adding to final database dump
+0033.631 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/26/fopen): adding to final database dump
+0033.631 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_groups.table.gz (12/26/fopen): adding to final database dump
+0033.631 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_logs.table.tmpr27.gz (13/26/fopen): adding to final database dump
+0033.632 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_actionscheduler_logs.table.gz (14/26/fopen): adding to final database dump
+0033.632 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_commentmeta.table.tmpr0.gz (15/26/fopen): adding to final database dump
+0033.632 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_commentmeta.table.gz (16/26/fopen): adding to final database dump
+0033.633 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_comments.table.tmpr2.gz (17/26/fopen): adding to final database dump
+0033.633 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_comments.table.gz (18/26/fopen): adding to final database dump
+0033.633 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_links.table.tmpr0.gz (19/26/fopen): adding to final database dump
+0033.634 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_links.table.gz (20/26/fopen): adding to final database dump
+0033.634 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_postmeta.table.tmpr4173.gz (21/26/fopen): adding to final database dump
+0033.635 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_postmeta.table.gz (22/26/fopen): adding to final database dump
+0033.635 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_posts.table.tmpr593.gz (23/26/fopen): adding to final database dump
+0033.636 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_posts.table.gz (24/26/fopen): adding to final database dump
+0033.637 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_term_relationships.table.tmpr100001.gz (25/26/fopen): adding to final database dump
+0033.637 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_term_relationships.table.gz (26/26/fopen): adding to final database dump
+0033.637 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_term_taxonomy.table.tmpr5.gz (27/26/fopen): adding to final database dump
+0033.638 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_term_taxonomy.table.gz (28/26/fopen): adding to final database dump
+0033.638 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_termmeta.table.tmpr0.gz (29/26/fopen): adding to final database dump
+0033.638 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_termmeta.table.gz (30/26/fopen): adding to final database dump
+0033.638 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_terms.table.tmpr5.gz (31/26/fopen): adding to final database dump
+0033.639 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_terms.table.gz (32/26/fopen): adding to final database dump
+0033.639 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_e_events.table.tmpr0.gz (33/26/fopen): adding to final database dump
+0033.639 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_e_events.table.gz (34/26/fopen): adding to final database dump
+0033.640 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_logs.table.tmpr0.gz (35/26/fopen): adding to final database dump
+0033.640 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_logs.table.gz (36/26/fopen): adding to final database dump
+0033.640 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (37/26/fopen): adding to final database dump
+0033.641 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_payment_meta.table.gz (38/26/fopen): adding to final database dump
+0033.641 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_payments.table.tmpr0.gz (39/26/fopen): adding to final database dump
+0033.641 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_payments.table.gz (40/26/fopen): adding to final database dump
+0033.641 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (41/26/fopen): adding to final database dump
+0033.642 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_wpforms_tasks_meta.table.gz (42/26/fopen): adding to final database dump
+0033.642 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_indexable.table.tmpr0.gz (43/26/fopen): adding to final database dump
+0033.642 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_indexable.table.gz (44/26/fopen): adding to final database dump
+0033.643 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_indexable_hierarchy.table.tmpr1.gz (45/26/fopen): adding to final database dump
+0033.643 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_indexable_hierarchy.table.gz (46/26/fopen): adding to final database dump
+0033.643 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_migrations.table.tmpr25.gz (47/26/fopen): adding to final database dump
+0033.644 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_migrations.table.gz (48/26/fopen): adding to final database dump
+0033.644 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_primary_term.table.tmpr0.gz (49/26/fopen): adding to final database dump
+0033.644 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_primary_term.table.gz (50/26/fopen): adding to final database dump
+0033.645 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_seo_links.table.tmpr0.gz (51/26/fopen): adding to final database dump
+0033.645 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db-table-wp_yoast_seo_links.table.gz (52/26/fopen): adding to final database dump
+0033.647 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz: finished writing out complete database file (318.5 KB)
+0033.657 (0) Total database tables backed up: 26 (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz, size: 326245, sha1: d868cd35026be02d254188da5eac390e69c21a3a, sha256: ee4e0e07c6d537dc15d6be1cb5f138f07347b98be733762021ca095399b7a761)
+0033.661 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip: plugins: This file has already been successfully uploaded
+0033.661 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip: themes: This file has already been successfully uploaded
+0033.661 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip: uploads: This file has already been successfully uploaded
+0033.661 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip: others: This file has already been successfully uploaded
+0033.662 (0) backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz: db: This file has not yet been successfully uploaded: will queue
+0033.662 (0) Saving backup history. Total backup size: 218.6 MB
+0033.664 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0033.666 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0033.667 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-62c833f9e5ba5e326959a8aa2989cea4)
+0034.130 (0) Google Drive: quota usage: used=7208.1 MB, total=15360 MB, available=8151.9 MB
+0034.133 (0) Google Drive: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz: Attempting to upload to Google Drive (into folder id: 1B-vdbq0ZmEGLwBM0DIuwIUzAzsVRkwBS)
+0036.089 (0) Googledrive chunked upload: 100 % uploaded
+0036.097 (0) Google Drive: OK: Archive backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz uploaded in 1.96 seconds
+0036.099 (0) Recording as successfully uploaded: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz
+0036.102 (0) Deleting local file: backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-db.gz: OK
+0036.106 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0036.108 (0) Number of backup sets in history: 5; groups (db): 1
+0036.109 (0) Examining (for databases) backup set with group_id=0, nonce=ddc0c605d3da, datestamp=1723997935 (Aug 18 2024 16:18:55)
+0036.110 (0) This backup set is the backup set just made, so will not be deleted.
+0036.110 (0) Examining (for databases) backup set with group_id=0, nonce=cbc8dc3ffe82, datestamp=1723991600 (Aug 18 2024 14:33:20)
+0036.110 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.111 (0) Examining (for databases) backup set with group_id=0, nonce=8c1776275b1d, datestamp=1723854271 (Aug 17 2024 00:24:31)
+0036.111 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.111 (0) Examining (for databases) backup set with group_id=0, nonce=809c3d918e60, datestamp=1723757226 (Aug 15 2024 21:27:06)
+0036.111 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0036.111 (0) Examining (for databases) backup set with group_id=0, nonce=51fc2465e165, datestamp=1723673869 (Aug 14 2024 22:17:49)
+0036.111 (0) 1723673869: db: this set includes a database (backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-db.gz); db count is now 4
+0036.111 (0) 1723673869: db: over retain limit (4); will delete this database
+0038.500 (0) Google Drive: backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-db.gz: Deletion successful
+0038.517 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0038.518 (0) Number of backup sets in history: 5; groups (files): 1
+0038.520 (0) Examining (for files) backup set with nonce=ddc0c605d3da, datestamp=1723997935 (Aug 18 2024 16:18:55)
+0038.520 (0) This backup set is the backup set just made, so will not be deleted.
+0038.521 (0) This backup set is the backup set just made, so will not be deleted.
+0038.522 (0) This backup set is the backup set just made, so will not be deleted.
+0038.522 (0) This backup set is the backup set just made, so will not be deleted.
+0038.522 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.523 (0) Examining (for files) backup set with nonce=cbc8dc3ffe82, datestamp=1723991600 (Aug 18 2024 14:33:20)
+0038.523 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.524 (0) Examining (for files) backup set with nonce=8c1776275b1d, datestamp=1723854271 (Aug 17 2024 00:24:31)
+0038.524 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.524 (0) Examining (for files) backup set with nonce=809c3d918e60, datestamp=1723757226 (Aug 15 2024 21:27:06)
+0038.524 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.524 (0) Examining (for files) backup set with nonce=51fc2465e165, datestamp=1723673869 (Aug 14 2024 22:17:49)
+0038.524 (0) plugins: over retain limit (4); will delete this file entity
+0038.524 (0) themes: over retain limit (4); will delete this file entity
+0038.524 (0) uploads: over retain limit (4); will delete this file entity
+0038.525 (0) others: over retain limit (4); will delete this file entity
+0040.276 (0) Google Drive: backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-others.zip: Deletion successful
+0041.092 (0) Google Drive: backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-uploads.zip: Deletion successful
+0042.024 (0) Google Drive: backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-themes.zip: Deletion successful
+0042.834 (0) Google Drive: backup_2024-08-14-2217_Marine_en_parle_51fc2465e165-plugins.zip: Deletion successful
+0042.851 (0) This backup set is now empty; will remove from history
+0042.853 (0) Deleting log file (log.51fc2465e165.txt)
+0042.856 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0042.864 (0) Resume backup (ddc0c605d3da, 0): finish run
+0042.867 (0) Decremented the semaphore (fd) by 1
+0042.868 (0) Semaphore (fd) unlocked
+0042.869 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.874 (0) The backup succeeded and is now complete
+0042.875 (0) Deleting zip manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-plugins.zip.list.tmp)
+0042.876 (0) Deleting zip manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-themes.zip.list.tmp)
+0042.877 (0) Deleting zip manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-uploads.zip.list.tmp)
+0042.878 (0) Deleting zip manifest (backup_2024-08-18-1618_Marine_en_parle_ddc0c605d3da-others.zip.list.tmp)
+0042.879 (0) No email will/can be sent - the user has not configured an email address.
+0042.879 (0) La sauvegarde a réussi et est maintenant terminée
