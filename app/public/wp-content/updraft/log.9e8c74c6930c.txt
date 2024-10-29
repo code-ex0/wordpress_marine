@@ -1,4 +1,4 @@
-0000.000 (0) Opened log file at time: Sun, 18 Aug 2024 21:58:38 +0000 on http://marinenparle.local
+0000.000 (0) Opened log file at time: Sun, 18 Aug 2024 21:58:38 +0000 on http://192.168.1.47:8000
 0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (fpm-fcgi, Darwin mbp-de-marine.home 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:13:18 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6030 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.7M | 14M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
 0000.001 (0) Free space on disk containing Updraft's temporary directory: 137202.2 MB
 0000.002 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
@@ -501,7 +501,7 @@
 2161.123 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
 2161.127 (0) No email will/can be sent - the user has not configured an email address.
 2161.128 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
-3891.335 (1) Opened log file at time: Sun, 18 Aug 2024 23:03:29 +0000 on http://marinenparle.local
+3891.335 (1) Opened log file at time: Sun, 18 Aug 2024 23:03:29 +0000 on http://192.168.1.47:8000
 3891.335 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (fpm-fcgi, Darwin mbp-de-marine.home 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:13:18 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6030 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 22M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
 3891.336 (1) Free space on disk containing Updraft's temporary directory: 136819.6 MB
 3891.337 (1) Requesting backup semaphore lock (9e8c74c6930c)
@@ -573,7 +573,7 @@
 4475.214 (1) Rescheduling resumption 2: moving to 1020 seconds from now (1724023813)
 4475.216 (1) No email will/can be sent - the user has not configured an email address.
 4475.216 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
-7792.292 (2) Opened log file at time: Mon, 19 Aug 2024 00:08:30 +0000 on http://marinenparle.local
+7792.292 (2) Opened log file at time: Mon, 19 Aug 2024 00:08:30 +0000 on http://192.168.1.47:8000
 7792.295 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (fpm-fcgi, Darwin mbp-de-marine.home 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:13:18 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6030 x86_64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 16M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
 7792.295 (2) Free space on disk containing Updraft's temporary directory: 136859.1 MB
 7792.297 (2) Requesting backup semaphore lock (9e8c74c6930c)
