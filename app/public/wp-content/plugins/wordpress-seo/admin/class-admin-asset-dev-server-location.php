@@ -15,7 +15,7 @@ final class WPSEO_Admin_Asset_Dev_Server_Location implements WPSEO_Admin_Asset_L
 	 *
 	 * @var string
 	 */
-	public const DEFAULT_URL = 'http://localhost:8000';
+	public const DEFAULT_URL = 'http://192.168.1.47:8000';
 
 	/**
 	 * Holds the url where the server is located.
